@@ -114,7 +114,7 @@ Template Name: BlackDsn - Ajax Portfolio HTML Template
   --overlay-blend-mode: unset;
 }
 :root .dsn-icon-theme-color {
-  --theme-color: #f7e0c7;
+  --theme-color: #ffd000;
 }
 @media only screen and (min-width: 1400px) {
   :root {
