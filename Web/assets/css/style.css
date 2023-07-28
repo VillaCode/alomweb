@@ -2592,7 +2592,7 @@ a:hover, a:active {
   max-height: 70vh;
 }
 .dsn-posts .dsn-animate-up, .dsn-posts .dsn-animate-down {
-  font-size: 15vw;
+  font-size: 5vw;
   line-height: 15vw;
   opacity: 0.5;
 }
@@ -6697,6 +6697,11 @@ html {
 
 .sizeS{
   font-size: 1.1rem;
+}
+
+.black{
+  color: black;
+  opacity: 1 !important;
 }
 
 .sizeM{
