@@ -2593,7 +2593,7 @@ a:hover, a:active {
 }
 .dsn-posts .dsn-animate-up, .dsn-posts .dsn-animate-down {
   font-size: 5vw;
-  line-height: 15vw;
+  line-height: 15vw;  
   opacity: 0.5;
 }
 .dsn-posts .dsn-animate-down {
@@ -6672,7 +6672,7 @@ html {
 }
 
 .hide {
-  transform: translateY(-100%); /* Move the element out of view */
+  transform: translateY(-10%); /* Move the element out of view */
 }
 
 .toggle-text{

@@ -30,17 +30,7 @@ function menuClickHandler() {
 };
 
 
-function menuScrollHider(){ 
-  let scrollTop = window.pageYOffset || document.documentElement.scrollTop; 
-
-  if (scrollTop > lastScrollTop && scrollTop > 1000){
-    document.getElementById("navbar_toggle").classList.add("hide");
-  } else if(scrollTop + window.innerHeight < document.documentElement.scrollHeight) {
-    document.getElementById("navbar_toggle").classList.remove("hide");
-  }
-
-  lastScrollTop = scrollTop;
-};
+function menuScrollHider(){};
 
 
 if(window.innerWidth < 767){
