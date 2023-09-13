@@ -6705,12 +6705,12 @@ html {
 }
 
 .sizeM{
-  font-size: 1.3rem;
+  font-size: 2rem;
 }
 
 .sizeG{
 
-  font-size: 2.2rem;
+  font-size: 3.2rem;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.623);
   color: #F9AE1F;
  
@@ -6726,4 +6726,10 @@ html {
 
 .teayudamos{
   font-weight: 500;
+}
+
+@media only screen and (min-width: 1200px) {
+  .customGrid {
+      max-width: 1500px !important;
+  }
 }
