@@ -15,6 +15,13 @@
 
     <link href="assets/css/plugins.css" rel="stylesheet"/>
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- D3.js library -->
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+
+    <!-- TopoJSON library -->
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+
 </head>
 
 <body class="v-light dsn-ajax bg-dots">
@@ -234,56 +241,40 @@
 
         <!-- ========== About Section ========== -->
         <div class="about-section about-arc section-margin" style="margin: 20vh 0;">
-            <div class="container d-grid grid-md-2 d-grid-no-space customGrid">
+            <div class="container d-grid grid-md-2 d-grid-no-space">
+              
+
                 <div class="box-left box-padding">
-                  
-                    <h2 class="title-h2 p-relative body-font teayudamos heading-color sizeM">
+                    <h2 class="title-h2 p-relative body-font  heading-color text-upper">
                         ¿Qué haces cuando necesitas algo?
                     </h2>
 
-                    <h3 class="sm-title-block mt-20 p-relative  theme-color sizeG">
+                    <h3 class="sm-title-block mt-20 p-relative  theme-color text-upper">
                         LO BUSCAS EN INTERNET.
                     </h3>
 
-                    <p class="mt-20 sizeM mar-top black" style="max-width: 635px !important;">
-
-                        Tener un espacio digital no es meramente un capricho, 
-                        es una exigencia del mercado. Nosotros estamos aquí para impulsar tu organización
+                    <p class="max-w570 mt-20">
+                        Tener un espacio en el mundo digital no es meramente <br> un capricho, 
+                        es una exigencia del mercado. Nosotros estamos <br> aquí para impulsar tu organización
                         hacia la vanguardia
-
                     </p>
 
-
+            
                     <div class="dsn-def-btn dsn-icon-heading-color mt-30 d-flex">
-                        <a class="dsn-btn dsn-border border-color-default  background-section effect-ajax effect-ajax  move-circle has-icon-left"
-                           href="about-us.html" data-dsn-text="STUDIO" data-dsn="parallax">
-                        <span class="dsn-icon dsn-bg-before btn-icon-left heading-color z-index-1" style="color: black;">
+                        <a class="dsn-btn dsn-border border-color-default background-section effect-ajax move-circle has-icon-left dsn-parallax-hover" href="about-us.html" data-dsn-text="STUDIO" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px);">
+                        <span class="dsn-icon dsn-bg-before btn-icon-left heading-color z-index-1">
                             <i class="fas fa-angle-right"></i>
                         </span>
-                            <span class="title-btn p-relative teayudamos z-index-1 heading-color">Contáctanos</span>
-                        </a>
+                            <span class="title-btn p-relative  z-index-1 heading-color">Contáctanos</span>
+                        <div class="icon-circle" style="min-width: 1px; translate: none; rotate: none; scale: none;"></div></a>
                     </div>
-                    
                 </div>
 
-                <div class="box-right box-creative p-relative">
-                    <div class="p-relative border-rdu over-hidden h-100">
-                        <div class="img-box-parallax h-100 w-100 before-z-index dsn-animate dsn-effect-left border-rdu"
-                             data-dsn-triggerhook="bottom"
-                             data-dsn-grid="move-up" data-overlay="1">
-                            <img src='assets/img/Home/2do/internet.jpg' class="cover-bg-img has-direction"
-                                 data-dsn-position="50% 0%" alt=''/>
-                        </div>
+                <div class="box-right box-creative p-relative" style="overflow: visible;">
+                    
+                    <div id="world3D" style="margin-top: -3vh;"></div>                    
 
-
-                    </div>
-
-                    <div class="img-top">
-                        <img src='assets/img/cell.png' class="cover-bg-img border-rdu" alt=''/>
-                    </div>
-                    <div class="img-bottom">
-                        <img src='assets/img/computer.png' class="cover-bg-img border-rdu" alt=''/>
-                    </div>
+                    
                 </div>
             </div>
 
